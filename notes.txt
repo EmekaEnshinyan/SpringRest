@@ -6,3 +6,22 @@ to build your project even if you don’t have Maven installed on your machine.
 TacoCloudApplication.java—
 This is the Spring Boot main class that bootstraps
 the project. 
+
+application.properties—
+This file is initially empty, but offers a place where you
+can specify configuration properties.
+
+static—
+This folder is where you can place any static content (images, stylesheets,
+JavaScript, and so forth) that you want to serve to the browser. It’s initially
+empty.
+
+templates—
+This folder is where you’ll place template files that will be used to
+render content to the browser. It’s initially empty, but you’ll add a Thymeleaf
+template soon.
+
+TacoCloudApplicationTests.java—
+This is a simple test class that ensures that
+the Spring application context loads successfully. You’ll add more tests to the
+mix as you develop the application.
