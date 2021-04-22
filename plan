@@ -1,0 +1,8 @@
+try creating a user interface for the HackerNews public API to list 
+the top 500 latest articles using Java and the swing platform
+
+build on the project:
+    1. make a synchronous calls to The Hacker News API
+    2. add caching
+    3. add paging to front end
+    4. Implement a search feature with search filters
