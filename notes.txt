@@ -57,3 +57,8 @@ In web applications Thymeleaf aims to be a complete substitute for JavaServer
 Pages (JSP), and implements the concept of Natural Templates: template files 
 that can be directly opened in browsers and that still display correctly as 
 web pages.
+
+@GetMapping-
+to indicate that if an HTTP GET request is received for the root path /,
+then this method should handle that request. It does so by doing nothing more than
+returning a String value of home.
